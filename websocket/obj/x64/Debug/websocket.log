@@ -1,0 +1,24 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.112.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  EpollServer.cpp
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(74,41): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(74,41): warning :      bindaddr.sin_port = htons(this->port);
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(74,41): warning :                                          ^
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(193,44): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(193,44): warning :      int m = recv(socketfd, recvbuf, 2048, 0);
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(193,44): warning :                                             ^
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(197,39): warning : passing NULL to non-pointer argument 2 of ‘int EpollServer::deleteEvent(int, int)’ [-Wconversion-null]
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(197,39): warning :          if (deleteEvent(socketfd, NULL) != -1)
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(197,39): warning :                                        ^
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(208,43): warning : passing NULL to non-pointer argument 2 of ‘int EpollServer::deleteEvent(int, int)’ [-Wconversion-null]
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(208,43): warning :              if (deleteEvent(socketfd, NULL) != -1)
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(208,43): warning :                                            ^
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(104,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(104,1): warning :  }
+E:\代码\socket\myWebsocket\websocket\EpollServer.cpp(104,1): warning :  ^
+  正在链接对象
+  websocket.vcxproj -> E:\代码\socket\myWebsocket\websocket\bin\x64\Debug\websocket.out
